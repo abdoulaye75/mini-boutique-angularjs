@@ -7,9 +7,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Boule de Suif",
 			author: "Guy de Maupassant",
 			year: 1880,
-			price: 2.30,
-			likes: 0,
-			dislikes: 0
+			price: 2.30
 		},
 
 		{
@@ -17,9 +15,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Dom Juan",
 			author: "Molière",
 			year: 1665,
-			price: 2.30,
-			likes: 0,
-			dislikes: 0
+			price: 2.30
 		},
 
 		{
@@ -27,9 +23,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Tartuffe",
 			author: "Molière",
 			year: 1669,
-			price: 2.00,
-			likes: 0,
-			dislikes: 0
+			price: 2.00
 		},
 
 		{
@@ -37,9 +31,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Les Liaisons Dangereuses",
 			author: "Pierre Choderlos de Laclos",
 			year: 1782,
-			price: 4.80,
-			likes: 0,
-			dislikes: 0
+			price: 4.80
 		},
 
 		{
@@ -47,9 +39,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Rhinocéros",
 			author: "Ionesco",
 			year: 1960,
-			price: 7.20,
-			likes: 0,
-			dislikes: 0
+			price: 7.20
 		},
 
 		{
@@ -57,9 +47,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Dragon Ball Z tome 42",
 			author: "Akira Toriyama",
 			year: 1989,
-			price: 6.90,
-			likes: 0,
-			dislikes: 0
+			price: 6.90
 		},
 
 		{
@@ -67,9 +55,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Tintin et les Picaros",
 			author: "Hergé",
 			year: 1976,
-			price: 6.95,
-			likes: 0,
-			dislikes: 0
+			price: 6.95
 		},
 
 		{
@@ -77,9 +63,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Les trois Souhaits",
 			author: "Frères Grimm",
 			year: 1815,
-			price: 3.00,
-			likes: 0,
-			dislikes: 0
+			price: 3.00
 		},
 
 		{
@@ -87,9 +71,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "La Cigale et la Fourmi",
 			author: "Jean de La Fontaine",
 			year: 1668,
-			price: 2.50,
-			likes: 0,
-			dislikes: 0
+			price: 2.50
 		},
 
 		{
@@ -97,9 +79,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Le Corbeau et le Renard",
 			author: "Jean de La Fontaine",
 			year: 1668,
-			price: 2.50,
-			likes: 0,
-			dislikes: 0
+			price: 2.50
 		},
 
 		{
@@ -107,9 +87,7 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Le Lion et le Moucheron",
 			author: "Jean de La Fontaine",
 			year: 1668,
-			price: 2.50,
-			likes: 0,
-			dislikes: 0
+			price: 2.50
 		},
 
 		{
@@ -117,18 +95,8 @@ app.controller("bookCtrl", ['$scope', function($scope) {
 			title: "Madame Bovary",
 			author: "Gustave Flaubert",
 			year: 1857,
-			price: 2.00,
-			likes: 0,
-			dislikes: 0
+			price: 2.00
 		}
 	];
-
-	$scope.addLike = function(index) {
-		$scope.books[index].likes++;
-	};
-
-	$scope.addDislike = function(index) {
-		$scope.books[index].dislikes++;
-	};
 
 }]);
